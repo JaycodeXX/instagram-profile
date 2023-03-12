@@ -41,8 +41,15 @@ body{
     width: 100%;
     border-radius: 50%;
 }
-.user-settings,
-.stats,
+.user-settings{
+    float: left;
+    width: calc(66.666% - 2rem);
+}
+
+.stats{
+    float: left;
+    width: calc(66.666% - 2rem);
+}
 .bio{
     float: left;
     width: calc(66.666% - 2rem);
