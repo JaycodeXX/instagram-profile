@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+body{
+    /* padding: 2% 7%; */
+}
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+    background: #fafafa;
+    /* padding-bottom: 3rem; */
+}
+.btn{
+    all: unset;
+    background: none;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+}
+.btn:focus{
+    outline: .5rem auto #4d90fe;
+}
+.profile{
+    padding: 5rem 0;
+}
+.profile::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.profile-img{
+    float: left;
+    width: calc(33.333% - 13rem);
+    margin-right: 6.5rem;
+}
+.profile-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.user-settings,
+.stats,
+.bio{
+    float: left;
+    width: calc(66.666% - 2rem);
+}
+.user-settings{
+    margin-top: 1.1rem;
+}
