@@ -6,54 +6,20 @@
     list-style: none;
 }
 body{
-    /* padding: 2% 7%; */
+    padding: 2% 5%;
 }
-.container{
-    max-width: 70%;
-    margin: 0 auto;
-    background: #fafafa;
-    /* padding-bottom: 3rem; */
+header{
+    text-align: center;
+    padding: 20px;
 }
-.btn{
-    all: unset;
-    background: none;
-    display: inline-block;
-    cursor: pointer;
-    border: none;
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
 }
-.btn:focus{
-    outline: .5rem auto #4d90fe;
+.box{
+    width: 300px;
 }
-.profile{
-    padding: 5rem 0;
-}
-.profile::after{
-    content: '';
-    display: block;
-    clear: both;
-}
-.profile-img{
-    float: left;
-    width: calc(33.333% - 13rem);
-    margin-right: 6.5rem;
-}
-.profile-img img{
+img{
     width: 100%;
-    border-radius: 50%;
-}
-.user-settings{
-    float: left;
-    width: calc(66.666% - 2rem);
-}
-
-.stats{
-    float: left;
-    width: calc(66.666% - 2rem);
-}
-.bio{
-    float: left;
-    width: calc(66.666% - 2rem);
-}
-.user-settings{
-    margin-top: 1.1rem;
 }
